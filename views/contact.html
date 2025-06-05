@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Contact</title>
+  <link rel="stylesheet" href="./stylesheets/style-index.css">
+</head>
+<body>
+  <h1>Contact Us</h1>
+  <form action="/contact/submit" method="get">
+    <label>Name:<br><input type="text" name="name" required></label><br>
+    <label>Email:<br><input type="email" name="email" required></label><br>
+    <label>Other Contact Method (message):<br>
+      <textarea name="message" required></textarea>
+    </label><br>
+    <button type="submit">Submit</button>
+  </form>
+  <nav>
+    <a href="/">Home</a> |
+    <a href="/about">About</a> |
+    <a href="/contact">Contact</a>
+  </nav>
+</body>
+</html>
